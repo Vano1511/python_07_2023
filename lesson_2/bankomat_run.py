@@ -32,6 +32,8 @@ while not exiting:
     if user_answer == "0":
         print("до свидания")
         exit()
+    elif user_answer == "3":
+        new_bankomat.show_history()
     else:
         new_bankomat.check_for_richy()
         user_sum = input_summ()
