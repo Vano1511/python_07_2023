@@ -1,7 +1,7 @@
 from random import randint
 
 
-def check_solve(places: tuple) -> bool:
+def check_solve(places: list) -> bool:
     """This function check a placement of 8 queens and returns bool result of solving task"""
 
     end = len(places)
@@ -15,7 +15,7 @@ def check_solve(places: tuple) -> bool:
 
 
 def placements_gen():
-    """This function generate random placement of 8 queens and returns tuple of tuples"""
+    """This function generate random placement of 8 queens and returns list of tuples"""
 
     result = []
     while len(result) < 8:
@@ -24,13 +24,14 @@ def placements_gen():
             continue
         else:
             result.append(queen)
-    return tuple(result)
+    return result
 
 
 if __name__ == "__main__":
-    count = 0
-    while count < 4:
-        placement = placements_gen()
-        if check_solve(placement):
-            print(placement)
-            count += 1
+    # count = 0
+    # while count < 4:
+    #     placement = placements_gen()
+    #     if check_solve(placement):
+    #         print(placement)
+    #         count += 1
+    print(placements_gen())
