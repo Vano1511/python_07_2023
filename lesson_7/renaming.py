@@ -27,6 +27,5 @@ def renaming_files(wanted_name, count_nums=3, extension_old=".txt", extension_ne
                     Path.rename(file, new_path / new_name)
 
 
-
 if __name__ == "__main__":
     renaming_files("wood", count_nums=2, extension_old=".mov", extension_new=".vi", tolerance=[2, 5])
