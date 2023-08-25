@@ -58,6 +58,7 @@ def reporting(data: list):
         json.dump(data, json_file, indent=4)
         pickle.dump(data, pickle_file)
 
+
 if __name__ == "__main__":
     report_list = make_dict_for_raport(dir_path)
     reporting(report_list)
@@ -66,4 +67,3 @@ if __name__ == "__main__":
     #         if dirs[1]:
     #             for dir in dirs[1]:
     #                 print(f"{file} = {os.path.getsize(os.path.join(dir_path, dir, file))}")
-
