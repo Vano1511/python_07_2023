@@ -1,5 +1,5 @@
 class Rectangle:
-    """The class who introduces rectangles/"""
+    """The class who introduces rectangles."""
     def __init__(self,
                 length_cm: float,
                 width_cm: float = None) -> None:
