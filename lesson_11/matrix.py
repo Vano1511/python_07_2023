@@ -1,4 +1,5 @@
 import numpy as np
+from my_exceptions import MatrixShapesError
 
 
 class Matrix(np.matrix):
@@ -12,31 +13,28 @@ class Matrix(np.matrix):
         if self.matrix.shape == other.matrix.shape:
             return Matrix(self.matrix + other.matrix)
         else:
-            return (f"To add we must have matrix with same shapes, "
-                    f"but we hawe {self.matrix.shape} and {other.matrix.shape}")
+            raise MatrixShapesError(self.matrix.shape, other.matrix.shape)
 
-    def __sub__(self, other):
+    def __sub__(self, other: "Matrix"):
         """The subtract method with class instances.
             must have matrix with same shapes"""
         if self.matrix.shape == other.matrix.shape:
             return Matrix(self.matrix - other.matrix)
         else:
-            return (f"To subtract we must have matrix with same shapes, "
-                    f"but we have {self.matrix.shape} and {other.matrix.shape}")
+            raise MatrixShapesError(self.matrix.shape, other.matrix.shape)
 
-    def __mul__(self, other):
+    def __mul__(self, other: "Matrix"):
         """The multiply method with class instances.
             mustn't have matrix with same shapes"""
         return Matrix(self.matrix * other.matrix)
 
-    def __truediv__(self, other):
+    def __truediv__(self, other: "Matrix"):
         """The divide method with class instances.
             must have matrix with same shapes"""
         if self.matrix.shape == other.matrix.shape:
             return Matrix(self.matrix / other.matrix)
         else:
-            return (f"To divide we must have matrix with same shapes, "
-                    f"but we have {self.matrix.shape} and {other.matrix.shape}")
+            raise MatrixShapesError(self.matrix.shape, other.matrix.shape)
 
     def __str__(self):
         return self.base

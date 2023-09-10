@@ -1,5 +1,6 @@
 import csv
 from statistics import mean
+from my_exceptions import MarkError, NotSubjectFoundError, AnyNameError
 
 subjects_file = "subjects.csv"
 
@@ -33,7 +34,7 @@ class Snp:
             new_value = value.title()
             if new_value.isalpha():
                 return new_value
-            raise ValueError("surname, name and patronymic must contains only letters")
+            raise AnyNameError(value)
         return value
 
 
@@ -79,12 +80,12 @@ class Student:
             if 0 <= mark <= 100:
                 self.test_marks[subject].append(mark)
             else:
-                raise ValueError("test mark must be in range from 0 to 100")
+                raise MarkError(mark, 0, 100)
         else:
             if 2 <= mark <= 5:
                 self.marks[subject].append(mark)
             else:
-                raise ValueError("mark must be in range from 2 to 5")
+                raise MarkError(mark, 2, 5)
 
     @property
     def all_subjects(self):
@@ -92,7 +93,7 @@ class Student:
 
     def validate_subject(self, subject: str):
         if subject not in self.__subjects:
-            raise ValueError(f"student doesn't have subject {subject}, only {self.__subjects}")
+            raise NotSubjectFoundError(subject, self.__subjects)
 
     def average_from_subject(self, subject: str, test: bool = False) -> float:
         self.validate_subject(subject)
