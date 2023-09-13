@@ -63,4 +63,4 @@ if __name__ == '__main__':
     print(f'{r3.calc_len() = }')
     print(f'{r3.calc_square() = }')
     print('---')
-    print(r1 <= r2)
+    print(r1 == r2)
