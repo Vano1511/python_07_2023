@@ -8,5 +8,7 @@ def fizz_gen():
             i = "Buzz"
         yield i
 
-for num, element in enumerate(fizz_gen(), start=1):
-    print(f"{num} : {element}")
+
+if __name__ == "__main__":
+    for num, element in enumerate(fizz_gen(), start=1):
+        print(f"{num} : {element}")

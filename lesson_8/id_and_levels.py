@@ -30,6 +30,7 @@ def read_from_file(file_name: str) -> dict:
         data = {f"access_level_{i}": {} for i in range(1, 8)}
     return data
 
+
 def write_to_file(file_name: str, user_id: str, user_name: str, user_access: str, data: dict):
     """Opens json file to write to file."""
 
