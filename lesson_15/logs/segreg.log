@@ -1,0 +1,101 @@
+WARNING  - 2023-09-17 13:42:56,937: all is good
+INFO     - 2023-09-17 13:45:38,725: all is good
+INFO     - 2023-09-17 13:45:38,725: initialization of sorter sorter is completed
+INFO     - 2023-09-17 13:53:23,140: initialization of sorter 'sorter' is completed
+INFO     - 2023-09-17 13:53:23,141: The sorter 'sorter' read mails from file mails.csv
+INFO     - 2023-09-17 13:53:23,212: The sorter 'sorter' writes result of sorting to file result.csv
+INFO     - 2023-09-17 13:58:08,556: initialization of sorter 'sorter' is completed
+INFO     - 2023-09-17 13:58:08,557: The sorter 'sorter' read mails from file mails.csv
+INFO     - 2023-09-17 13:58:08,629: The sorter 'sorter' already ended sorting mails.
+INFO     - 2023-09-17 13:58:08,631: The sorter 'sorter' writes result of sorting to file result.csv
+INFO     - 2023-09-17 13:58:37,061: initialization of sorter 'sorter' is completed
+INFO     - 2023-09-17 13:58:37,062: The sorter 'sorter' read mails from file mails.csv
+INFO     - 2023-09-17 13:58:37,135: The sorter 'sorter' already ended sorting mails.
+INFO     - 2023-09-17 13:58:37,136: The sorter 'sorter' writes result of sorting to file result.csv
+INFO     - 2023-09-17 13:59:28,338: initialization of sorter 'sorter' is completed
+INFO     - 2023-09-17 13:59:28,339: The sorter 'sorter' read mails from file mails.csv
+INFO     - 2023-09-17 13:59:28,411: The sorter 'sorter' already ended sorting mails.
+INFO     - 2023-09-17 13:59:28,412: The sorter 'sorter' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:01:15,797: initialization of sorter 'sorter' is completed
+INFO     - 2023-09-17 14:01:15,798: The sorter 'sorter' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 14:01:15,864: The sorter 'sorter' already ended sorting mails.
+INFO     - 2023-09-17 14:01:15,866: The sorter 'sorter' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:01:32,421: initialization of sorter 'sorter' is completed
+ERROR    - 2023-09-17 14:01:32,421: The file mails.csv not founded
+INFO     - 2023-09-17 14:01:32,421: The sorter 'sorter' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:14:28,921: initialization of sorter 'new_sorter' is completed
+INFO     - 2023-09-17 14:14:28,921: The sorter 'new_sorter' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 14:14:28,991: The sorter 'new_sorter' already ended sorting mails.
+INFO     - 2023-09-17 14:14:28,992: The sorter 'new_sorter' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:26:04,864: initialization of sorter 'new_sorter' is completed
+INFO     - 2023-09-17 14:26:04,865: The sorter 'new_sorter' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 14:26:04,920: The sorter 'new_sorter' already ended sorting mails.
+INFO     - 2023-09-17 14:26:04,920: The sorter 'new_sorter' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:26:58,115: initialization of sorter 'finished_segregator' is completed
+INFO     - 2023-09-17 14:26:58,115: The sorter 'finished_segregator' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 14:26:58,191: The sorter 'finished_segregator' already ended sorting mails.
+INFO     - 2023-09-17 14:26:58,191: The sorter 'finished_segregator' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:27:54,683: initialization of sorter 'finished_segregator' is completed
+INFO     - 2023-09-17 14:27:54,683: The sorter 'finished_segregator' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 14:27:54,743: The sorter 'finished_segregator' already ended sorting mails.
+INFO     - 2023-09-17 14:27:54,743: The sorter 'finished_segregator' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:27:54,819: The sorter 'finished_segregator' returns result of sorting in console.
+INFO     - 2023-09-17 14:28:30,562: initialization of sorter 'finished_segregator' is completed
+INFO     - 2023-09-17 14:28:30,562: The sorter 'finished_segregator' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 14:28:30,630: The sorter 'finished_segregator' already ended sorting mails.
+INFO     - 2023-09-17 14:28:30,630: The sorter 'finished_segregator' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:28:30,714: The sorter 'finished_segregator' returns result of sorting in console.
+INFO     - 2023-09-17 14:29:39,521: initialization of sorter 'finished_segregator' is completed
+INFO     - 2023-09-17 14:29:39,521: The sorter 'finished_segregator' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 14:29:39,603: The sorter 'finished_segregator' already ended sorting mails.
+INFO     - 2023-09-17 14:29:39,603: The sorter 'finished_segregator' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:29:39,636: The sorter 'finished_segregator' returns result of sorting in console.
+INFO     - 2023-09-17 14:30:01,097: initialization of sorter 'finished_segregator' is completed
+INFO     - 2023-09-17 14:30:01,097: The sorter 'finished_segregator' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 14:30:01,168: The sorter 'finished_segregator' already ended sorting mails.
+INFO     - 2023-09-17 14:30:01,168: The sorter 'finished_segregator' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:30:01,220: The sorter 'finished_segregator' returns result of sorting in console.
+INFO     - 2023-09-17 14:31:21,016: initialization of sorter 'finished_segregator' is completed
+INFO     - 2023-09-17 14:31:21,016: The sorter 'finished_segregator' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 14:31:21,075: The sorter 'finished_segregator' already ended sorting mails.
+INFO     - 2023-09-17 14:31:21,090: The sorter 'finished_segregator' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:31:21,156: The sorter 'finished_segregator' returns result of sorting in console.
+INFO     - 2023-09-17 14:34:47,562: initialization of sorter 'sorter' is completed
+INFO     - 2023-09-17 14:34:47,563: The sorter 'sorter' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 14:34:47,657: The sorter 'sorter' already ended sorting mails.
+INFO     - 2023-09-17 14:34:47,659: The sorter 'sorter' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:34:47,668: The sorter 'sorter' returns result of sorting in console.
+INFO     - 2023-09-17 14:35:07,453: initialization of sorter 'finished_segregator' is completed
+INFO     - 2023-09-17 14:35:07,453: The sorter 'finished_segregator' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 14:35:07,511: The sorter 'finished_segregator' already ended sorting mails.
+INFO     - 2023-09-17 14:35:07,527: The sorter 'finished_segregator' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:35:07,582: The sorter 'finished_segregator' returns result of sorting in console.
+INFO     - 2023-09-17 14:36:49,042: initialization of sorter 'finished_segregator' is completed
+INFO     - 2023-09-17 14:36:49,042: The sorter 'finished_segregator' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 14:36:49,110: The sorter 'finished_segregator' already ended sorting mails.
+INFO     - 2023-09-17 14:36:49,110: The sorter 'finished_segregator' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:36:49,266: The sorter 'finished_segregator' returns result of sorting in console.
+INFO     - 2023-09-17 14:37:20,880: initialization of sorter 'finished_segregator' is completed
+INFO     - 2023-09-17 14:37:20,880: The sorter 'finished_segregator' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 14:37:20,948: The sorter 'finished_segregator' already ended sorting mails.
+INFO     - 2023-09-17 14:37:20,948: The sorter 'finished_segregator' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:37:21,011: The sorter 'finished_segregator' returns result of sorting in console.
+INFO     - 2023-09-17 14:37:46,457: initialization of sorter 'finished_segregator' is completed
+INFO     - 2023-09-17 14:37:46,457: The sorter 'finished_segregator' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 14:37:46,525: The sorter 'finished_segregator' already ended sorting mails.
+INFO     - 2023-09-17 14:37:46,525: The sorter 'finished_segregator' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:37:46,579: The sorter 'finished_segregator' returns result of sorting in console.
+INFO     - 2023-09-17 14:38:13,360: initialization of sorter 'finished_segregator' is completed
+INFO     - 2023-09-17 14:38:13,360: The sorter 'finished_segregator' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 14:38:13,470: The sorter 'finished_segregator' already ended sorting mails.
+INFO     - 2023-09-17 14:38:13,470: The sorter 'finished_segregator' writes result of sorting to file result.csv
+INFO     - 2023-09-17 14:38:13,621: The sorter 'finished_segregator' returns result of sorting in console.
+INFO     - 2023-09-17 15:07:02,501: initialization of sorter 'finished_segregator' is completed
+INFO     - 2023-09-17 15:07:02,501: The sorter 'finished_segregator' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 15:07:02,569: The sorter 'finished_segregator' already ended sorting mails.
+INFO     - 2023-09-17 15:07:02,569: The sorter 'finished_segregator' writes result of sorting to file result.csv
+INFO     - 2023-09-17 15:07:02,634: The sorter 'finished_segregator' returns result of sorting in console.
+INFO     - 2023-09-17 15:07:16,269: initialization of sorter 'finished_segregator' is completed
+INFO     - 2023-09-17 15:07:16,269: The sorter 'finished_segregator' read mails from file user_support_letters.csv
+INFO     - 2023-09-17 15:07:16,379: The sorter 'finished_segregator' already ended sorting mails.
+INFO     - 2023-09-17 15:07:16,379: The sorter 'finished_segregator' writes result of sorting to file result.csv

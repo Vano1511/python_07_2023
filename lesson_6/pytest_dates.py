@@ -1,6 +1,16 @@
 import pytest
-from dates import check_date
 from datetime import date
+
+
+MIN_DATE = date(1, 1, 1)
+MAX_DATE = date(2025, 12, 31)
+
+
+def check_date(dat: date) -> bool:
+    if MIN_DATE <= dat <= MAX_DATE:
+        return True
+    else:
+        return False
 
 
 def test_check_true():
