@@ -1,1 +1,1 @@
-__all__ = ["dates", "guessing_game", "riddles"]
+__all__ = ["dates", "guessing_game", "riddles", "pytest_dates"]

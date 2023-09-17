@@ -53,7 +53,6 @@ class Cashomat:
             print(f"произведен вычет налога на богатство в размере {tax}")
             self.transaction_list.append(f"вычет налога на богатство в размере {tax}")
 
-
     def show_history(self):
         print("история счета: ")
         for num, element in enumerate(self.transaction_list, start=1):
