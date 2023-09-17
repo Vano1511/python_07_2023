@@ -3,7 +3,7 @@ from datetime import date
 
 __all__ = ["check_date"]
 MIN_DATE = date(1, 1, 1)
-MAX_DATE = date(9999, 12, 31)
+MAX_DATE = date(2025, 12, 31)
 
 
 def check_date(dat: date) -> bool:

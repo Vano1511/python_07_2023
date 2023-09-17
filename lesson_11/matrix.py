@@ -1,9 +1,27 @@
 import numpy as np
 from my_exceptions import MatrixShapesError
+import doctest
 
 
 class Matrix(np.matrix):
-    """The Matrix class who inherited from numpy matrix class."""
+    """
+    The Matrix class who inherited from numpy matrix class.
+    >>> matr1 = Matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+    >>> matr2 = Matrix([[9, 8, 7], [6, 5, 4], [3, 2, 1]])
+    >>> matr1 / matr2
+    matrix([[0.11111111, 0.25      , 0.42857143],
+            [0.66666667, 1.        , 1.5       ],
+            [2.33333333, 4.        , 9.        ]])
+
+    >>> matr1 = Matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]])
+    >>> matr2 = Matrix([[9, 8, 7], [6, 5, 4], [3, 2, 1]])
+    >>> matr1 * matr2
+    matrix([[ 30,  24,  18],
+            [ 84,  69,  54],
+            [138, 114,  90],
+            [192, 159, 126]])
+
+    """
     def __init__(self, list_of_lists):
         self.matrix = np.matrix(np.array(list_of_lists))
 
@@ -41,6 +59,7 @@ class Matrix(np.matrix):
 
 
 if __name__ == "__main__":
-    matr1 = Matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+    doctest.testmod()
+    matr1 = Matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]])
     matr2 = Matrix([[9, 8, 7], [6, 5, 4], [3, 2, 1]])
-    print(matr1 / matr2)
+    print(matr1 * matr2)
